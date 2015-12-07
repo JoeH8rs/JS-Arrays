@@ -42,13 +42,26 @@ reversedLooper(letters);
 var manyNums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
 //Write a function named evenFinder that is given 'arr' as it's only parameter and removes all values that aren't even from the given array.
 
-function evenFinder(arr) {
+function oddFinder(arr) {
   for (var i = arr.length - 1; i >= 0; i--) {
-    if (arr[i] === 1) {
-    arr.
-}
+    if (arr[i] % 2 === 0) {
+      arr.splice(i, 1);
+    }
   }
 }
+oddFinder(manyNums);
+manyNums
+
+
+function evenFinder(arr) {
+  for (var i = arr.length - 1; i >= 0; i--) {
+    if (arr[i] % 2 === 1) {
+      arr.splice(i, 1);
+    }
+  }
+}
+evenFinder(manyNums);
+manyNums
 
 // 6)
 var nums = [1, 2, 34, 54, 55, 34, 32, 11, 19, 17, 54, 66, 13];
@@ -57,27 +70,56 @@ var odds = [];
 //Write a function called divider that is given three parameters, 'arr1', arr2, and arr3.
 //Have divider return an Array with the first item in the array being the evens array (all the even values from nums) and the second item in the Array being the odds array(all the odd values from nums).
 
-
-
-//Code Here
+function divider(arr1, evenNums, oddNums) {
+  for (var i = 0; i < arr1.length; i++) {
+    if (arr1[i] % 2 === 1) {
+      oddNums.push(arr1[i]);
+    } else {
+      evenNums.push(arr1[i]);
+    }   
+    }
+}
 
 // 7)
+divider(nums, evens, odds);
+var nums = [1, 2, 34, 54, 55, 34, 32, 11, 19, 17, 54, 66, 13];
+var evens = [];
+var odds = [];
+//Write a function called divider that is given three parameters, 'arr1', arr2, and arr3.
+//Have divider return an Array with the first item in the array being the evens array (all the even values from nums) and the second item in the Array being the odds array(all the odd values from nums).
+
+function divider(arr1, evenNums, oddNums) {
+  for (var i = 0; i < arr1.length; i++) {
+    if (arr1[i] % 2 === 1) {
+      oddNums.push(arr1[i]);
+    } else {
+      evenNums.push(arr1[i]);
+    }   
+    }
+}
+divider(nums, evens, odds);
+nums
+evens
+odds
+
+
+// 8)
 var getRandomArbitrary = function () {
   return Math.floor(Math.random() * (30 - 0) + 0);
 };
 var numbers = [0, 3, 4, 5, 6, 7, 9, 14, 17, 24, 25, 26, 29, 30];
 //Above you're given a function that will return a random number between 0 and 30, and an array full of numbers. Your job is to write a function named finder that will get a random number, then loop through the array to see if that random number is in the array. If it is, return true, if it's not, return false
 
-//Code Here
 
-// 8)
+
+// 9)
 var str = 'this is my sentence';
 //Write a function called reverse that takes a given str as it's only parameter and returns that string after it's been reversed
 
 //Code Here
 
 
-// 9)
+// 10)
 var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 /*
   Here we're going to write a function that mimics going shopping and checking things off of our grocery list,

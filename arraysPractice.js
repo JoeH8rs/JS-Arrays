@@ -1,7 +1,7 @@
 //Once you complete a problem, open up Chrome and check the answer in the console.
 
 
-var arr = [10,20,30];
+var bigNums = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
 
 function first(arr) {
@@ -15,14 +15,14 @@ first();
 
 
 
-var arr = [40,50,60];
+var theNumbs = [40,50,60];
 //Create a function named 'last' that is given 'arr' as the argument and returns the last item in the given array.
 
-function last() {
-   var last = arr.slice(-1);
+function last(arr) {
+  var last = arr.slice(-1); 
   return last;
 }
-last();
+last(theNumbs);
 
 
 //Next Problem
@@ -31,7 +31,13 @@ last();
 var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 //Create a function named 'looper' that is given family as it's only argument, loops through the given array, and alerts every item in the array.
 
-  //Code Here
+function looper() {
+  for (var i = 0; i < looper.length; i++) {
+    var me = looper[i];
+    return me;
+    }
+}
+looper();
 
 
 //Next problem

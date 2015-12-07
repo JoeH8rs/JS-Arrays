@@ -6,7 +6,8 @@ var nums1 = [10, 20, 30];
 //Create a function named 'first' that is given 'arr' as the parameter and  returns the first item in the given array.
 
 function first(arr) {
-  return 
+  var num1 = arr.slice(0, 1);
+  return num1;
 }
 
 

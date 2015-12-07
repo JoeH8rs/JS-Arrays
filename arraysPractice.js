@@ -4,7 +4,11 @@
 var arr = [10,20,30];
 //Create a function named 'first' that is given 'arr' as the argument and  returns the first item in the given array.
 
-  //Code Here
+function first(arr) {
+ var one = arr.slice(0, 1);
+  return one;
+}
+first();
 
 
 //Next problem
@@ -14,8 +18,11 @@ var arr = [10,20,30];
 var arr = [40,50,60];
 //Create a function named 'last' that is given 'arr' as the argument and returns the last item in the given array.
 
-
-  //Code Here
+function last() {
+   var last = arr.slice(-1);
+  return last;
+}
+last();
 
 
 //Next Problem

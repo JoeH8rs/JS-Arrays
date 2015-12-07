@@ -9,14 +9,17 @@ function first(arr) {
   var num1 = arr.slice(0, 1);
   return num1;
 }
-
+first(nums1);
 
 // 2)
 var bigNumbs = [40, 50, 60];
 //Create a function named 'last' that is given 'arr' as the parameter and returns the last item in the given array.
 
-
-//Code Here
+function last(arr) {
+  var numLast = arr.slice(-1);
+  return numLast;
+}
+last(bigNumbs);
 
 // 3)
 var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
@@ -28,13 +31,24 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given 'arr' as it's only parameter and loops through the given array backwards alerting every item in the array starting at the end.
 
-//Code Here
+function reversedLooper(arr) {
+  for (var i = arr.length - 1; i >= 0; i--) {
+    console.log(i);
+  }
+}
+reversedLooper(letters);
 
 // 5)
 var manyNums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
 //Write a function named evenFinder that is given 'arr' as it's only parameter and removes all values that aren't even from the given array.
 
-//Code Here
+function evenFinder(arr) {
+  for (var i = arr.length - 1; i >= 0; i--) {
+    if (arr[i] === 1) {
+    arr.
+}
+  }
+}
 
 // 6)
 var nums = [1, 2, 34, 54, 55, 34, 32, 11, 19, 17, 54, 66, 13];

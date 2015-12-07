@@ -64,15 +64,14 @@ var nums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
 //Write a function named evenFinder that is given nums as it's only argument and removes all values that aren't even from the given array.
 
 function everFinder(arr) {
-  for (var i = 0; i < array.length; i++) {
-    if (i % 2 === 0) {
-      arr.splice(-1);
-
+  for (var i = 0; i < arr.length; i++) {
+    if (arr[i] % 2 === 1) {
+      arr.splice(i, i);
     }
-
   }
-
 }
+everFinder(nums);
+nums
 
 
 
@@ -87,7 +86,6 @@ var odds = [];
 
 
 
-//Code Here
 
 
 //Next Problem

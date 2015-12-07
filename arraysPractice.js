@@ -1,11 +1,13 @@
 //Once you complete a problem, open up Chrome and check the answer in the console.
-
+//First Attempt
 
 // 1)
 var nums1 = [10, 20, 30];
 //Create a function named 'first' that is given 'arr' as the parameter and  returns the first item in the given array.
 
-//Code Here
+function first(arr) {
+  return 
+}
 
 
 // 2)

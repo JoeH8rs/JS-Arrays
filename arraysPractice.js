@@ -1,54 +1,39 @@
 //Once you complete a problem, open up Chrome and check the answer in the console.
 
 
+// 1)
 var nums1 = [10, 20, 30];
 //Create a function named 'first' that is given 'arr' as the parameter and  returns the first item in the given array.
 
 //Code Here
 
 
-//Next problem
-
-
-
+// 2)
 var bigNumbs = [40, 50, 60];
 //Create a function named 'last' that is given 'arr' as the parameter and returns the last item in the given array.
 
 
 //Code Here
 
-
-//Next Problem
-
-
+// 3)
 var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 //Create a function named 'looper' that is given 'arr' as it's only parameter, loops through the given array, and alerts every item in the array.
 
 //Code Here
 
-
-//Next problem
-
-
-
+// 4)
 var letters = ['A', 'B', 'C', 'D', 'E'];
 //Write a function called reversedLooper that is given 'arr' as it's only parameter and loops through the given array backwards alerting every item in the array starting at the end.
 
 //Code Here
 
-
-//Next Problem
-
-
+// 5)
 var manyNums = [1, 2, 3, 6, 22, 98, 45, 23, 22, 12];
 //Write a function named evenFinder that is given 'arr' as it's only parameter and removes all values that aren't even from the given array.
 
 //Code Here
 
-
-//Next problem
-
-
+// 6)
 var nums = [1, 2, 34, 54, 55, 34, 32, 11, 19, 17, 54, 66, 13];
 var evens = [];
 var odds = [];
@@ -59,10 +44,7 @@ var odds = [];
 
 //Code Here
 
-
-//Next Problem
-
-
+// 7)
 var getRandomArbitrary = function () {
   return Math.floor(Math.random() * (30 - 0) + 0);
 };
@@ -71,20 +53,14 @@ var numbers = [0, 3, 4, 5, 6, 7, 9, 14, 17, 24, 25, 26, 29, 30];
 
 //Code Here
 
-
-//Next problem
-
-
-
+// 8)
 var str = 'this is my sentence';
 //Write a function called reverse that takes a given str as it's only parameter and returns that string after it's been reversed
 
 //Code Here
 
 
-//Next Problem
-
-
+// 9)
 var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 /*
   Here we're going to write a function that mimics going shopping and checking things off of our grocery list,
@@ -106,7 +82,7 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
 
 
-//Next Problem
+// 10)
 
 
 
@@ -116,7 +92,7 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 
 
 
-//Next Problem
+// 11)
 
 
 var numbers = [5, '9', 16, 19, '25', '34', 48];
@@ -127,7 +103,7 @@ var numbers = [5, '9', 16, 19, '25', '34', 48];
 
 
 
-//Next Problem
+// 12)
 
 
 
@@ -157,11 +133,7 @@ for (var i = 0; i < num2; i++) {
   
   
 
-//NEXT PROBLEM
-
-
-
-
+// 13)
 var devMountainEmployees = [];
 
 var tyler = {
@@ -202,11 +174,7 @@ Loop through your devMountainEmployees until you find cahlan, then remove him fr
 
 
 
-//NEXT PROBLEM
-
-
-
-
+// 14)
 /*Now we're going to combine what we've learned today (objects) with what we learned
 yesterday (arrays). Yeah, take a deep breathe. You're ready for this, promise.
 Let's think back to our itunes example (tylermcginnis.com/itunes).

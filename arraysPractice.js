@@ -33,7 +33,7 @@ var letters = ['A', 'B', 'C', 'D', 'E'];
 
 function reversedLooper(arr) {
   for (var i = arr.length - 1; i >= 0; i--) {
-    console.log(i);
+    console.log(arr[i]);
   }
 }
 reversedLooper(letters);
@@ -110,13 +110,28 @@ var getRandomArbitrary = function () {
 var numbers = [0, 3, 4, 5, 6, 7, 9, 14, 17, 24, 25, 26, 29, 30];
 //Above you're given a function that will return a random number between 0 and 30, and an array full of numbers. Your job is to write a function named finder that will get a random number, then loop through the array to see if that random number is in the array. If it is, return true, if it's not, return false
 
-
+function finder(numArr, ranNum) {
+  for (var i = 0; i < numbers.length; i++) {
+    if (ranNum === numArr[i]) {
+      return true;
+    } 
+  }
+  return false;
+}
+finder(numbers, getRandomArbitrary());
 
 // 9)
 var str = 'this is my sentence';
 //Write a function called reverse that takes a given str as it's only parameter and returns that string after it's been reversed
 
-//Code Here
+function reverse(arr) {
+  var str1 = "";
+for(var i = str.length - 1; i > -1; i--) {
+    str1 = str1 + str.charAt(i);
+  }
+  return str1;
+} 
+reverse(str); 
 
 
 // 10)
@@ -134,7 +149,7 @@ var myGroceryList = ['chips', 'pizza', 'hotpockets', 'MtnDew', 'corndogs'];
   myGroceryList then return the new, updated grocery list.
 */
 
-//Code Here
+
 
 //removeItem(myGroceryList, 'chips') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs'];
 //addItem(myGroceryList, 'Jerky') --> ['pizza', 'hotpockets', 'MtnDew', 'corndogs', 'Jerky'];
